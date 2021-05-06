@@ -1,0 +1,101 @@
+@font-face {
+	font-family: LeagueSpartan;
+    src: url('../fonts/league-spartan.bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(15, 15, 15) !important; 
+    
+    
+}
+
+/*Barra de menu*/
+
+.nav-header{
+    background-color: rgb(0, 0, 0);
+    color: white; 
+}
+
+
+/*Texto culto*/
+
+.texto-culto{
+    margin-top: 30px;
+}
+
+/*Cards*/
+
+.card-text{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+
+
+
+/* CSS Pag Onde Estamos */
+
+.mapa{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.texto-onde{
+    padding: 20px;
+    font-size: 32px;
+}
+
+hr{
+    width: 80%;
+    border-color: white !important; 
+}
+
+.ico-map{
+    padding: 20px;
+}
+
+.texto-info{
+    padding-top: 20px;
+}
+
+
+/* CSS Pag Contato */
+
+.texto-contato{
+    font-size: 25px;
+
+}
+
+.form-contato{
+    color: white;
+    padding-top: 10px;
+}
+
+.texto-info-contato{
+    padding-top: 50px;
+}
+
+.infp-contato{
+    padding-top: 10px;
+}
+
+
+/*Rodapé*/
+
+
+.rodape{
+    background-color: rgb(0, 0, 0);
+    padding: 40px;
+    margin-top: 20px;
+}
+.icon-social{
+    padding: 5px;
+}
+.copy{
+    background-color: rgb(3, 3, 3);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
