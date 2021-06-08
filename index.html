@@ -7,14 +7,14 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="midia/Logo/logo_sem_fundo.png"/>
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-index.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     
     <title>Ahava Amitit Church</title>
   </head>
   <body>
     
-    <nav class="navbar navbar-expand-lg navbar-dark nav-header">
+    <nav class="navbar navbar-expand-lg navbar-dark nav-header fixed-top">
         <div class="container"> 
             <a class="navbar-brand img-fluid" href="index.html"><img src="midia/Logo/Logo_header.png" width="250" alt="Logo da igreja"></a>
 
@@ -25,67 +25,92 @@
             <div class="collapse navbar-collapse" id="navbarIndex">
                 <ul class="navbar-nav ml-auto">
                     <li>
-                        <a class="nav-link text-white" href="index.html">Home</a>
+                        <a class="nav-link text-white " href="index.html">Home</a>
                     </li>
                     <li>
-                        <a class="nav-link text-white" href="quemsomos.html">Quem Somos</a>
+                        <a class="nav-link text-white " href="html/quemsomos.html">Quem Somos</a>
                     </li>
                     <li>
-                        <a class="nav-link text-white" href="localizacao.html">Localização</a>
+                        <a class="nav-link text-white " href="html/localizacao.html">Localização</a>
+                    </li>
+                    
+                    <li>
+                        <a class="nav-link text-white " href="html/doacoes.html">Doações</a>
                     </li>
                     <li>
-                        <a class="nav-link text-white" href="midia.html">Mídias</a>
-                    </li>
-                    <li>
-                        <a class="nav-link text-white" href="doacoes.html">Doações</a>
-                    </li>
-                    <li>
-                        <a class="nav-link text-white" href="contato.html">Contato</a>
+                        <a class="nav-link text-white " href="html/contato.html">Contato</a>
                     </li>
                 </ul>
             </div>
         </div>    
-    </nav>
-    <div>      
-        <img src="midia/imagens/banner2.png" class="img-fluid d-block " width="100%">          
-    </div>
+    </nav>        
 
-    <div class="container">
+    <img src="midia/imagens/banner-capa.png" class="img-fluid" width="100%">
+    
+    <div class="container bloco-nossos-cultos">
         <div class="row">
             <div class="col-12 text-center my-5 text-white">
                 <h2 class="texto-culto">Nossos Cultos</h2>
+                <hr class="linha">
             </div>
         </div>
-        <div class="card-deck">
-            <div class="card" >
-              <img class="card-img-top" src="midia/imagens/adora5.png" alt="Imagem de capa do card">
-              <div class="card-body">
-                <h5 class="card-title">Culto de Doutrina</h5>
-                <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior, para demonstração.</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">Quinta-Feira às 18:30</small>
-              </div>
+        <div class="row ">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">                
+                <blockquote class="blockquote text-white rounded">
+                    <p class="mb-0 txt-culto"><em>“Quem não sabe onde quer ir, qualquer caminho serve”</em></p>
+                    <small class="blockquote-footer"><cite>Alice no País das Maravilhas</cite></small>
+                    <p class="text-justify txt-culto">Essa frase nos mostra que é importante termos uma meta, por mais simples que esta meta seja, ela terá de estar bem definida, pois andar sem um rumo certo pode ser perigoso.</p>
+                    <p class="txt-culto">Disse Jesus: <em>“Eu sou o Caminho, a Verdade e a Vida; ninguém vem ao Pai, senão por mim” </em><small>(João 14:6).</small> Ao colocar essas afirmações, ele deixa claro que devemos tê-lo como meta.</p>
+                    <p class="txt-culto">Portanto, não fique mais perdido fazendo questionamentos do tipo: <strong>"Qual será meu futuro? O que vou ser? De onde eu vim? Para onde vou? Qual igreja congregar? Devo agora ficar em casa?"</strong> Como afirma Jesus, ele é o melhor lugar para estar e o melhor caminho de se andar!</p>
+                    <p class="txt-culto">Se você não conheceu o melhor de Deus, nós do Ahava Amatit Church que acreditamos verdadeiramente nesta palavra, te convidamos para experimentar o melhor do amor dele.  </p>
+                    <footer class="blockquote-footer">Bispo Felipe Freire - <cite title="Título da fonte">PERDÃO, UNIÃO E LIBERDADE CALÇADA NA VERDADE!</cite></footer>
+                </blockquote>
             </div>
-            <div class="card">
-              <img class="card-img-top" src="midia/imagens/adora5.png" alt="Imagem de capa do card">
-              <div class="card-body">
-                <h5 class="card-title">Culto da Família</h5>
-                <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">Domingo às 17:30</small>
-              </div>
-            </div>
-        </div>  
-    </div>
-    
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="col-12">
+                    <div class="card card-text  text-white">
+                        <div class="card-body">
+                            <h5 class="card-title">Culto de Doutrina</h5>
+                            <p class="card-text text-justify">Culto de adoração com explanação da palavra salvífica de Jeus.</p>
+            
+                        </div>
+                        <div class="card-footer bg-transparent border-white text-white">
+                            <small><img src="midia/icon/relogio.png" width="22px"> Quinta-Féira às 18:30</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card card-text  text-white">
+                        <div class="card-body">
+                            <h5 class="card-title">Culto de Jovens </h5>
+                            <p class="card-text text-justify">Culto dos Jovens.</p>            
+                        </div>
+                        <div class="card-footer bg-transparent border-white text-white">
+                            <small><img src="midia/icon/relogio.png" width="22px"> Sábado às 17:30</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card card-text  text-white">
+                        <div class="card-body">
+                            <h5 class="card-title">Culto da Família</h5>
+                            <p class="card-text text-justify">Nosso maior intúito é o entendimento da mensagem e o reconhecimento que somos Pecadores e Necessitamos do <strong>salvador Jesus</strong></p>            
+                        </div>
+                        <div class="card-footer bg-transparent border-white text-white">
+                            <small><img src="midia/icon/relogio.png" width="22px"> Domingo às 17:30</small>
+                        </div>
+                    </div>
+                </div>  
+            </div>      
+        </div>
+    </div>    
+      
     <div class="container-fluid rodape">
         <div class="row">
-            <div class="col text-md-right">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-md-right">
                 <a href="index.html"><img src="midia/Logo/Logo_header.png" class="img-fluid" width="400" alt="Logo da igreja"></a>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <h3 class="text-white">Fale conosco</h3>
                 <p class="text-white"><img src="midia/icon/celular.png"width="24px"> (82) 99966-8214 / (82) 98734-8753</p>
                 <p class="text-white"><img src="midia/icon/o-email.png"width="24px"> email@hotmail.com</p>
@@ -107,7 +132,7 @@
 
     <!-- Optional JavaScript -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/script-index.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
