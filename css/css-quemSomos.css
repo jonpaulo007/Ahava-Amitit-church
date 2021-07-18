@@ -1,0 +1,38 @@
+
+.titleHeader{
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+}
+
+#pilares{
+    background-color: rgba(0, 0, 0, 0.233); 
+    margin-top: 20px;  
+}
+
+.titleIcon{
+    padding-top: 10px;
+}
+
+.icone{    
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+}
+.icone:hover{
+    
+    box-shadow: rgb(170, 0, 0) 0px 2px 8px 0px;
+}
+
+.barra{
+    color: red;
+    font-size: 1.5em;
+}
+#blocoMsg{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    color: white;
+}
+#nomeRed{
+    color: red;
+}

@@ -1,0 +1,30 @@
+/*Bloco nossos cultos*/
+.bloco-nossos-cultos{
+    padding-bottom: 20px;
+}
+
+
+.card-text{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.card{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 4px #000000;
+    background-color: rgba(202, 0, 0, 0.87) !important;
+}
+.bi-clock{
+    font-size: 22px;
+}
+
+.blockquote{
+    box-shadow: 6px 0px 10px  #000000;
+    padding: 2px;
+   
+}
+
+.txt-culto{
+    font-size: 1.2rem;
+}
+

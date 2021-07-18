@@ -1,0 +1,19 @@
+.mapa{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.texto-loca{
+    padding-top: 20px;
+    
+}
+
+.texto-info{
+    padding-top: 20px;
+}
+
+.icoLoca{
+    font-size: 33px;
+    color: white;
+}

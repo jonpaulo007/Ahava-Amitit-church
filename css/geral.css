@@ -1,44 +1,25 @@
+/* Configurações gerais */
 body {
     background-color: rgb(15, 15, 15) !important; 
     padding: 0px;
-    margin: 0px;
+    margin: 0px;    
+}
+
+/* navbar */
+.bgnav{
+    background-color: black;
+}
+.navitens{    
+    padding: 0px 10px !important; 
+    margin: 10px;
+}
+
+.navitens:hover{
+    color: rgb(255, 0, 0) !important;
     
 }
 
-.nav-header{
-    background-color: rgb(0, 0, 0);
-    color: white;        
-}
-
-li{
-    padding: 10px;
-}
-
-li a:hover{
-    
-    text-decoration: underline 3px red !important;
-}
-
-/* CSS Pag Contato */
-
-.texto-contato{
-    font-size: 25px;
-
-}
-
-.form-contato{
-    color: white;
-    padding-top: 10px;
-}
-
-.texto-info-contato{
-    padding-top: 50px;
-}
-
-.infp-contato{
-    padding-top: 10px;
-}
-
+/*Linhas*/
 .linha{
     border-color: red;
     padding: 0px;
@@ -51,15 +32,23 @@ li a:hover{
     border-color: white;
     
 }
-/*Rodapé*/
 
+/*Rodapé*/
 .rodape{
     background-color: rgb(0, 0, 0);
     padding: 40px;
     
 }
 .icon-social{
+    color: white;
+    font-size: 24px;
     padding: 5px;
+}
+.icon-social:hover{
+    color: red;
+}   
+.icoFale{
+    font-size: 25px;
 }
 .copy{
     background-color: rgb(3, 3, 3);

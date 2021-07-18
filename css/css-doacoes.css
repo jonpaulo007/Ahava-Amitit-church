@@ -1,0 +1,40 @@
+.texto-doaMGC{
+    margin-top: 50px;
+    margin-bottom: 25px;    
+}
+
+.bloco-doacaoMGC{
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif !important;
+    color: white;
+    
+}
+.contato-card{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.palavra-mgc{
+    font-size: 15pt;
+}
+
+.card-doacao{
+    color: white;
+    background-color: rgba(202, 0, 0, 0.87) !important;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 2px 2px 4px #000000;
+}
+.bi-whatsapp{
+    font-size: 18px;
+}
+
+#bloco-transfer{
+    background-color: #0000006e;
+}
+
+.txt-banco{
+    margin-top: 20px;
+}
+.dados-bancarios{
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
